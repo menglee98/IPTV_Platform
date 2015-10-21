@@ -1,0 +1,55 @@
+.QM {
+	font-size: 100%;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.login 
+{
+	font-size: 18px; color: #0000bb; font-weight:bolder;
+}
+.list {
+	FONT-SIZE: 18px; COLOR: #961819; font-weight: bold; valign:bottom; 
+}
+.list2 {
+	FONT-SIZE: 18px; COLOR: #961819; font-weight: bold;
+}
+.date 
+{ 
+	font-size: 17px; color: #000000; 
+}
+.day
+{
+	font-size: 14px; color: #000000; 
+}
+.metadata
+{
+	font-size: 16px; color: #000000; font-weight:bolder;
+}
+.metadata2
+{
+	font-size: 16px; color: #004444;
+}
+.metadata3
+{
+	font-size: 16px; color: #000000; font-weight:bolder;
+}
+.Title1 {
+	FONT-SIZE: 30px; COLOR: #8A0002;
+	font-weight: bold;
+}
+
+.Classfying {
+	font-size: 20px;
+	font-weight: normal;
+	color: #7F0D0C;
+}
+
+.QKey{
+	FONT-SIZE: 18px; COLOR: #ffffff; font-weight: bold;
+}
+.BulletinContent{
+	FONT-SIZE: 14apx; COLOR: #AAAAFF; 
+}
+.BulletinTitle{
+	FONT-SIZE: 18px; COLOR: #FFAAAA; font-weight: bold; 
+}
