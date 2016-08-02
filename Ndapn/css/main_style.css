@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* 基本樣式 */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+html {
+	cursor: url(images/cursor/point.cur),default;
+}
+a {
+	cursor: url(images/cursor/link.cur),default;
+}
+.btn {
+	cursor: url(images/cursor/link.cur),default;
+}
+body {
+	font-size: 75%;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #333333;
+	background-color: #FFFFFF;
+	text-align: center;
+}

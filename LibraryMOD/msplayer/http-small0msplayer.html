@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+	<HEAD>
+		<TITLE>請稍候..(點兩下或按Ctrl+Enter鍵以全螢幕)</TITLE>
+		<META CONTENT="text/html; charset=big5" HTTP-EQUIV="Content-Type">
+		<META NAME="Generator" CONTENT="PhotoImpact">
+
+<script language="JavaScript">
+<!--
+//setTimeout("window.focus();",3000);
+var cgi=location.search;
+var len = cgi.length;
+var file=cgi.slice(1,len);
+var urlpath = window.location.host;
+//urlpath = urlpath.replace(":8080","");
+//alert("window.location.host == " + window.location.host);
+urlpath = "http://" + window.location.host + "/smart-itv_v2.3/video/" + file;
+var Video='<EMBED EnableContextMenu=false ShowStatusBar=true type=application/x-mplayer2 SRC="' + urlpath + '" WIDTH="320" HEIGHT="240" autostart="true"></EMBED>';
+//alert(Video);
+//-->
+
+function Player()
+{
+}
+</script>
+
+	</HEAD>
+	<body BGCOLOR="#FFFFFF" TOPMARGIN="0" LEFTMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+	<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" ID="Table1">
+	<TR>
+		<TD><IMG SRC="images/msplayer_1.jpg" WIDTH="320" BORDER="0" HEIGHT="12"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/msplayer_2.jpg" WIDTH="320" BORDER="0" HEIGHT="28"></TD>
+	</TR>
+	<TR>
+	<TD WIDTH="320" HEIGHT="240" BACKGROUND="images/msplayer_3.jpg"><script>document.write(Video);</script></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

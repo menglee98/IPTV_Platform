@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#logo {
+	float: left;
+	width: 1080px;
+}
+
+/* 功能列 */
+
+#buttonlist {
+	float: left;
+	width: 1080px;
+	padding: 0px 0 0 0px;
+}
+#buttonlist ul {
+	list-style: none;
+	height: 37px;
+	overflow /**/: hidden;
+	border-bottom: 2px solid #999;
+}
+#buttonlist li {
+	float: left;
+	width: 120px;
+}
+#buttonlist a {
+	display: block;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	color: #FFFFFF;
+	background: url(../images/button.jpg) left top;
+	/*background-color: #4D4D4D;*/
+	text-decoration: none;
+}
+#buttonlist a:hover {
+	background: url(../images/button.jpg) right top;
+}

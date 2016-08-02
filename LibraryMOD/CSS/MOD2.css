@@ -1,0 +1,29 @@
+.style4 
+{
+	font-size: 14px; color: #ebebeb; 
+}
+	
+.list 
+{
+	 font-size: 24px; color: #f7ad08; font-weight:bolder; 
+}
+.date 
+{ 
+	font-size: 16px; color: #DDDDDD; 
+}
+.day
+{
+	font-size: 14px; color: #DDDDDD; 
+}
+
+.Title1 
+{
+	font-size: 200%;
+	font-weight: normal;
+	color: #ebebeb;
+}
+.QM {
+	font-size: 150%;
+	font-weight: normal;
+	color: #ebebeb;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=big5">
+		<title> Ndapn </title>
+		<script>
+function leftFrame_reload()
+{	
+	leftFrm.DoReload();
+}
+
+function setBasefrm()
+{
+	var Flag = getURLParam('Flag');
+	if(Flag == 'nodeadd')
+		basefrm.location.href='./node_add.aspx?txtID=1';
+	else
+		basefrm.location.href='welcome.aspx'
+}
+
+function getURLParam(strParamName)
+{
+	var strReturn = "";
+	var strHref = window.location.href;
+	if ( strHref.indexOf("?") > -1 ){
+		var strQueryString = strHref.substr(strHref.indexOf("?")).toLowerCase();
+		var aQueryString = strQueryString.split("&");
+	    for ( var iParam = 0; iParam < aQueryString.length; iParam++ ){
+		if(aQueryString[iParam].indexOf(strParamName.toLowerCase() + "=") > -1 ){
+			var aParam = aQueryString[iParam].split("=");
+			strReturn = aParam[1];
+			break;
+		}
+	    }
+	}
+	return unescape(strReturn);
+} 
+		</script>
+	</head>
+	<frameset rows="97,82%" frameborder="no" border="0" framespacing="0" onload =setBasefrm();>
+		<frame src="./top.aspx" name="top" id="top" noresize title="topFrm" scrolling="no">
+		<frameset cols="200,*" frameborder="no" border="0" framespacing="0">
+			<frame src="./treemenu/treemenu.aspx" name="leftFrm" id="leftFrm" scrolling="yes" noresize title="treeframe">
+			<frame src="./welcome.aspx" name="basefrm" id="basefrm" title="basefrm" scrolling="yes" >
+		</frameset>
+	</frameset>
+</html>

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* 連結基本樣式 */
+
+a {
+	color: #003399;
+	text-decoration: none;
+}
+a:visited {
+	color: #003399;
+}
+a:hover {
+	color: #0066CC;
+	text-decoration: underline;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+
+/* 按紐 */
+
+input.btn {
+  font-family: sans-serif, arial;
+  font-size: 12px;
+  height: 22px;
+  background-image: url(../images/btn_bg.gif);
+	background-repeat: repeat-x;
+  padding: 2px;
+  border: 1px solid #003c73;
+}
+
+/* 列 */
+
+.odd {
+	background-color: #dcdcdc;
+}
+.even {
+	background-color: #ffffff;
+}
